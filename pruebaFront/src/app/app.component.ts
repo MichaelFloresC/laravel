@@ -10,6 +10,7 @@ import { AuthService} from './auth.service';
 export class AppComponent implements OnInit{
   title = 'pruebaFront';
   usuarios =[];
+  headers=["Nombre","Direccion","Fecha de Creacion"];
 
   constructor(private authService : AuthService){
   }
